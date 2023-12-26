@@ -1,0 +1,47 @@
+h2 {
+    font-size: 2rem;
+    white-space: nowrap;;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 6rem;
+  }
+
+.About {
+    display: flex;
+    align-items: center;
+    height: 77vh;
+    position: relative;
+  }
+
+  .left , .right {
+    flex: 1;
+  }
+.left {
+    text-align: center;
+}
+  .left img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+
+
+  .right p strong {
+    font-weight: bold;
+  }
+
+
+
+  .blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(212px);
+    z-index: -9;
+    top: 50%;
+    left: 10%;
+    filter: blur(72px);
+  }
