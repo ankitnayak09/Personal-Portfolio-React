@@ -12,6 +12,7 @@ import { useContext } from "react";
 import { themeContext } from "./Context";
 import About from "./components/About/About";
 import GallerySection from "./components/Gallery/Gallery";
+import SocialMediaAppearance from "./components/SocialMediaAppearance/SocialMediaAppearance";
 function App() {
 	const theme = useContext(themeContext);
 	const darkMode = theme.state.darkMode;
@@ -32,6 +33,7 @@ function App() {
 			{/* <Portfolio /> */}
 			<GallerySection />
 			<Testimonial />
+			<SocialMediaAppearance />
 			<Contact />
 			{/* <Footer /> */}
 		</div>

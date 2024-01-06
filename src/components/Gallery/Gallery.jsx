@@ -14,12 +14,12 @@ export default function Gallery() {
 					))}
 				</div>
 				<div class="column">
-					{images["column1"].map((img) => (
+					{images["column2"].map((img) => (
 						<Card img={img} />
 					))}
 				</div>
 				<div class="column">
-					{images["column1"].map((img) => (
+					{images["column3"].map((img) => (
 						<Card img={img} />
 					))}
 				</div>
