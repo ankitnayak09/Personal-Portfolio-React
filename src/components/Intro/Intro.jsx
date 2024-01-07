@@ -67,7 +67,7 @@ const Intro = () => {
 				</div>
 			</div>
 			{/* right image side */}
-			<div className="i-right">
+			<div className="i-right hidden md:block">
 				<img src={Vector1} alt="" />
 				<img src={Vector2} alt="" />
 				<img src={hero_img} alt="" />
