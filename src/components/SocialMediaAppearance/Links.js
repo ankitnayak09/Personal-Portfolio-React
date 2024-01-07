@@ -84,9 +84,9 @@ export const links = {
 			type: "instagram",
 			url: "https://www.instagram.com/p/CrRJo0fhN4a/?utm_source=ig_embed&amp;utm_campaign=loading",
 		},
-		{
-			type: "instagram",
-			url: "https://www.instagram.com/reel/CqDeTgcI7CW/?utm_source=ig_embed&amp;utm_campaign=loading",
-		},
+		// {
+		// 	type: "instagram",
+		// 	url: "https://www.instagram.com/reel/CqDeTgcI7CW/?utm_source=ig_embed&amp;utm_campaign=loading",
+		// },
 	],
 };

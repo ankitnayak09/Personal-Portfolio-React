@@ -2,7 +2,6 @@ import React from "react";
 import "./Gallery.css";
 import { images } from "./images";
 import Card from "./Card/Card";
-
 export default function Gallery() {
 	return (
 		<section className="Gallery" id="gallery">

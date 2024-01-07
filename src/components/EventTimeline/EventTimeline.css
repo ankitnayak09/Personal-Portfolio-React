@@ -3,3 +3,14 @@
     background: black !important;
   }
   
+  .circle-black {
+    background-color: black;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5px 10px;
+    width: 250px;
+  }
