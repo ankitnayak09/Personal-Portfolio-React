@@ -1,7 +1,7 @@
 .services {
   padding: 0 3rem 0 3rem;
-  display: flex;
-  height: 30rem;
+  /* display: flex; */
+  /* height: 30rem; */
   margin-bottom: 8rem;
   margin-top: 9rem;
   margin-bottom: 13rem;
@@ -10,8 +10,8 @@
 }
 /* left side */
 .awesome {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   position: relative;
   /* gap: 20px; */
 }
@@ -38,10 +38,10 @@
 }
 /* right sided */
 .cards {
-  position: relative;
+  /* position: relative; */
 }
 .cards > * {
-  position: absolute;
+  /* position: absolute; */
 }
 
 /* blur */

@@ -5,15 +5,18 @@ import { ThemeProvider } from "./Context";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import TechPage from "./pages/TechPage";
 import EventPage from "./pages/EventPage";
+import { MenuProvider } from "./context/contextAPI";
 
 ReactDOM.render(
 	<BrowserRouter>
 		<ThemeProvider>
-			<Routes>
-				<Route path="/" element={<App />} />
-				<Route path="/tech" element={<TechPage />} />
-				<Route path="/event" element={<EventPage />} />
-			</Routes>
+			<MenuProvider>
+				<Routes>
+					<Route path="/" element={<App />} />
+					<Route path="/tech" element={<TechPage />} />
+					<Route path="/event" element={<EventPage />} />
+				</Routes>
+			</MenuProvider>
 		</ThemeProvider>
 	</BrowserRouter>,
 	document.getElementById("root")

@@ -5,16 +5,21 @@ import laptop_png from "../../img/laptop_png.jpg";
 export default function About() {
 	return (
 		<>
-			<h2>A Journey Fueled by Community and Technology</h2>
-			<section className="About" id="About">
+			<h2 className="text-2xl md:text-4xl font-bold text-center mt-24 mb-4">
+				A Journey Fueled by Community and Technology
+			</h2>
+			<section
+				className="About flex flex-col md:flex-row items-center"
+				id="About"
+			>
 				<div
 					className="blur"
 					style={{ background: "rgb(238 210 255)" }}
 				></div>
-				<div className="left">
+				<div className="left flex-1">
 					<img src={profile_pic} alt="" />
 				</div>
-				<div className="right">
+				<div className="right flex-1">
 					<p>
 						My story starts with a simple belief:{" "}
 						<strong>people are stronger together </strong>. From a
@@ -44,13 +49,14 @@ export default function About() {
 			</section>
 			<div className="flex justify-center items-center">
 				<div className="video-container">
-					<img src={laptop_png} alt="" className="" />
+					{/* <img src={laptop_png} alt="" className="" /> */}
 					<iframe
 						src="https://www.youtube.com/embed/Iqp9DeqrqYI"
 						title="Our Guiding Light: A Tribute to Bose Bhaiya, Founder of Student Organization Oasis"
 						frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 						allowfullscreen
+						className="w-4/5 h-[305px] md:h-[430px] relative left-[2.8rem] md:left-[4.1rem] top-4 md:top-6 "
 					></iframe>
 				</div>
 			</div>

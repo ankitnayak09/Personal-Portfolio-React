@@ -35,7 +35,9 @@ const Services = () => {
 					ispum is simpley dummy text of printing
 				</span>
 				<a href={Resume} download>
-					<button className="button s-button">Download CV</button>
+					<button className="button s-button my-4">
+						Download CV
+					</button>
 				</a>
 				<div
 					className="blur s-blur1"
@@ -43,12 +45,12 @@ const Services = () => {
 				></div>
 			</div>
 			{/* right */}
-			<div className="cards">
+			<div className="cards grid grid-cols-1 lg:grid-cols-3 gap-2 place-items-center">
 				{/* first card */}
 				<motion.div
-					initial={{ left: "25rem" }}
-					whileInView={{ left: "14rem" }}
-					transition={transition}
+				// initial={{ left: "25rem" }}
+				// whileInView={{ left: "14rem" }}
+				// transition={transition}
 				>
 					<Card
 						emoji={HeartEmoji}
@@ -60,9 +62,9 @@ const Services = () => {
 				</motion.div>
 				{/* second card */}
 				<motion.div
-					initial={{ left: "-11rem", top: "12rem" }}
-					whileInView={{ left: "-4rem" }}
-					transition={transition}
+				// initial={{ left: "-11rem", top: "12rem" }}
+				// whileInView={{ left: "-4rem" }}
+				// transition={transition}
 				>
 					<Card
 						emoji={Glasses}
@@ -74,9 +76,9 @@ const Services = () => {
 				</motion.div>
 				{/* 3rd */}
 				<motion.div
-					initial={{ top: "20rem", left: "40rem" }}
-					whileInView={{ left: "32rem" }}
-					transition={transition}
+				// initial={{ top: "20rem", left: "40rem" }}
+				// whileInView={{ left: "32rem" }}
+				// transition={transition}
 				>
 					<Card
 						emoji={Humble}

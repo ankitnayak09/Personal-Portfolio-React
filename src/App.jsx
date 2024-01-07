@@ -15,18 +15,25 @@ import GallerySection from "./components/Gallery/Gallery";
 import SocialMediaAppearance from "./components/SocialMediaAppearance/SocialMediaAppearance";
 import EventTimeline from "./components/EventTimeline/EventTimeline";
 import CelebrityGallery from "./components/CelebrityGallery/CelebrityGallery";
+import Sidebar from "./components/Sidebar/Sidebar";
+import { useMenuContext } from "./context/contextAPI";
 function App() {
 	const theme = useContext(themeContext);
 	const darkMode = theme.state.darkMode;
+	const { isOpen } = useMenuContext();
 	return (
 		<div
-			className="App"
+			className={
+				"App px-[1.5rem] py-[0.5rem] " +
+				(isOpen ? "overflow-hidden h-screen" : "")
+			}
 			style={{
 				background: darkMode ? "black" : "",
 				color: darkMode ? "white" : "",
 			}}
 		>
 			<Navbar />
+			<Sidebar />
 			<Intro />
 			<About />
 			<Services />
