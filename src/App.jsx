@@ -14,7 +14,6 @@ import About from "./components/About/About";
 import GallerySection from "./components/Gallery/Gallery";
 import SocialMediaAppearance from "./components/SocialMediaAppearance/SocialMediaAppearance";
 import EventTimeline from "./components/EventTimeline/EventTimeline";
-import TechTimeline from "./components/TechTimeline/TechTimeline";
 import CelebrityGallery from "./components/CelebrityGallery/CelebrityGallery";
 function App() {
 	const theme = useContext(themeContext);
@@ -34,7 +33,6 @@ function App() {
 			<Experience />
 			{/* <Works /> */}
 			{/* <Portfolio /> */}
-			<TechTimeline />
 			<EventTimeline />
 			<GallerySection />
 			<CelebrityGallery />
