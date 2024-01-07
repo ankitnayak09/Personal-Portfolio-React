@@ -13,34 +13,44 @@ const Experience = () => {
 					className="circle"
 					style={{ color: darkMode ? "var(--orange)" : "" }}
 				>
-					200+
+					5000+
 				</div>
-				<span style={{ color: darkMode ? "white" : "" }}>Events </span>
-				<span>Managed</span>
+				<span style={{ color: darkMode ? "white" : "" }}>
+					Students{" "}
+				</span>
+				<span>Mentored</span>
 			</div>
 			<div className="achievement">
 				<div
 					className="circle"
 					style={{ color: darkMode ? "var(--orange)" : "" }}
 				>
-					1000+
+					150+
 				</div>
-				<span style={{ color: darkMode ? "white" : "" }}>
-					Mentored{" "}
-				</span>
-				<span>Students</span>
+				<span style={{ color: darkMode ? "white" : "" }}>Seminar </span>
+				<span>Delivered</span>
 			</div>
 			<div className="achievement">
 				<div
 					className="circle"
 					style={{ color: darkMode ? "var(--orange)" : "" }}
 				>
-					5+
+					10+
 				</div>
 				<span style={{ color: darkMode ? "white" : "" }}>
-					companies{" "}
+					TedTalks{" "}
 				</span>
-				<span>Work</span>
+				<span>Speaker</span>
+			</div>
+			<div className="achievement">
+				<div
+					className="circle"
+					style={{ color: darkMode ? "var(--orange)" : "" }}
+				>
+					15+
+				</div>
+				<span style={{ color: darkMode ? "white" : "" }}>Podcast </span>
+				<span>Guest</span>
 			</div>
 		</div>
 	);

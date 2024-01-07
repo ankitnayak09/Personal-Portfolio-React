@@ -1,6 +1,7 @@
 .t-wrapper{
     padding:  0 3rem 0 3rem;;
-    height: 100vh;
+    /* height: 100vh; */
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,4 +77,35 @@
         width: 70px;
         height: 70px;
     }
+  }
+
+  .testimonial-card {
+    display: flex;
+    min-width: 300px;
+    max-width: 500px;
+    background-color: #FFFFFFFF;
+    margin: 0 20px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+
+  .testimonial-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .testimonial-card .client-name {
+    font-weight: bold;
+  }
+  .testimonial-card .client-name + div {
+    font-size: 0.875rem;
+  }
+
+  .client-bio {
+    margin: 5px 0;
+    font-style: italic;
   }

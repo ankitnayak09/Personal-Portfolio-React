@@ -1,5 +1,6 @@
 import "./About.css";
 import profile_pic from "../../img/profile-pic.png";
+import laptop_png from "../../img/laptop_png.jpg";
 
 export default function About() {
 	return (
@@ -41,6 +42,18 @@ export default function About() {
 					</p>
 				</div>
 			</section>
+			<div className="flex justify-center items-center">
+				<div className="video-container">
+					<img src={laptop_png} alt="" className="" />
+					<iframe
+						src="https://www.youtube.com/embed/Iqp9DeqrqYI"
+						title="Our Guiding Light: A Tribute to Bose Bhaiya, Founder of Student Organization Oasis"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					></iframe>
+				</div>
+			</div>
 		</>
 	);
 }

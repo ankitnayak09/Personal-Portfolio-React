@@ -30,11 +30,7 @@ export default function SocialMediaAppearance() {
 						return link.type === "instagram" ? (
 							<InstagramEmbed url={link.url} key={link.url} />
 						) : (
-							<LinkedInEmbed
-								url={link.url}
-								key={link.url}
-								postUrl={link.url}
-							/>
+							<LinkedInEmbed url={link.url} key={link.url} />
 						);
 					})}
 				</div>

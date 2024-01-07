@@ -45,3 +45,23 @@ h2 {
     left: 10%;
     filter: blur(72px);
   }
+
+  .video-container {
+    position: relative;
+    width: min(800px,100%);
+  }
+
+  .video-container img {
+    position: absolute;
+    left: 0;
+
+    z-index: -1;
+  }
+
+  .video-container iframe {
+    position: relative;
+    left: 10%;
+    top: 32px;
+    width: 80%;
+    height: 430px;
+  }
