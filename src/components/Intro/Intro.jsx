@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useRef } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
@@ -20,17 +20,34 @@ const Intro = () => {
 	const theme = useContext(themeContext);
 	const darkMode = theme.state.darkMode;
 
+	const IntroRef = useRef();
+
 	return (
-		<div className="Intro" id="Intro">
+		<div className="Intro" id="Intro" ref={IntroRef}>
 			{/* left name side */}
 			<div className="i-left">
 				<div className="i-name">
 					{/* yahan change hy darkmode ka */}
-					<span style={{ color: darkMode ? "white" : "" }}>
+					<motion.div
+						initial={{ left: "-100%" }}
+						whileInView={{ left: "0%" }}
+						className="relative"
+						style={{ color: darkMode ? "white" : "" }}
+					>
 						Hi! I Am
-					</span>
-					<span>Souhardya Bose</span>
-					<span
+					</motion.div>
+					<motion.div
+						initial={{ left: "-100%" }}
+						whileInView={{ left: "0%" }}
+						className="relative"
+					>
+						Souhardya Bose
+					</motion.div>
+					<motion.div
+						initial={{ left: "-100%" }}
+						whileInView={{ left: "0%" }}
+						transition={{ delay: 0.5 }}
+						className="relative"
 						style={{
 							fontSize: "1.5rem",
 							fontWeight: "bold",
@@ -38,17 +55,20 @@ const Intro = () => {
 						}}
 					>
 						Bridging the Gap Between Technology and Communities
-					</span>
-					<span
+					</motion.div>
+					<motion.div
+						initial={{ opacity: 0 }}
+						whileInView={{ opacity: 1 }}
+						transition={{ delay: 1 }}
+						className="relative tracking-wider italic"
 						style={{
 							fontSize: "1.2rem",
 							margin: "5px 0",
 						}}
 					>
 						Empowering Individuals, Building Strong Communities, and
-						Creating a Positive
-						<br /> Impact Together.
-					</span>
+						Creating a Positive Impact Together.
+					</motion.div>
 				</div>
 				<Link to="contact" smooth={true} spy={true}>
 					<button className="button i-button">Connect With Me</button>
@@ -68,15 +88,17 @@ const Intro = () => {
 			</div>
 			{/* right image side */}
 			<div className="i-right hidden md:block">
-				<img src={Vector1} alt="" />
-				<img src={Vector2} alt="" />
-				<img src={hero_img} alt="" />
+				<img src={Vector1} alt="" className="select-none" />
+				<img src={Vector2} alt="" className="select-none" />
+				<img src={hero_img} alt="" className="select-none" />
 				{/* animation */}
 				<motion.img
 					initial={{ left: "-36%" }}
 					whileInView={{ left: "-24%" }}
 					transition={transition}
 					src={glassesimoji}
+					drag
+					dragConstraints={IntroRef}
 					alt=""
 				/>
 

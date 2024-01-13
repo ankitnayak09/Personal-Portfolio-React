@@ -46,86 +46,80 @@ import pic47 from "./../../img/new/podcast of infuencer/1.JPG";
 import pic48 from "./../../img/new/podcast of infuencer/2.jpg";
 import pic49 from "./../../img/new/podcast of infuencer/3.jpg";
 
-export const images = {
-	column1: [
-		{
-			src: pic1,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic2,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic3,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic4,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic5,
-			caption: "With Anuj Bhaiya",
-		},
-	],
-	column2: [
-		{
-			src: pic6,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic7,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic8,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic10,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic11,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic12,
-			caption: "With Anuj Bhaiya",
-		},
-	],
-	column3: [
-		{
-			src: pic14,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic15,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic16,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic17,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic18,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic19,
-			caption: "With Anuj Bhaiya",
-		},
-		{
-			src: pic20,
-			caption: "With Anuj Bhaiya",
-		},
-	],
-};
+export const images = [
+	{
+		src: pic1,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic2,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic3,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic4,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic5,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic6,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic7,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic8,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic10,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic11,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic12,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic14,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic15,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic16,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic17,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic18,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic19,
+		caption: "With Anuj Bhaiya",
+	},
+	{
+		src: pic20,
+		caption: "With Anuj Bhaiya",
+	},
+];
 
 export const facultyImages = {
 	column1: [

@@ -17,6 +17,7 @@ import EventTimeline from "./components/EventTimeline/EventTimeline";
 import CelebrityGallery from "./components/CelebrityGallery/CelebrityGallery";
 import Sidebar from "./components/Sidebar/Sidebar";
 import { useMenuContext } from "./context/contextAPI";
+
 function App() {
 	const theme = useContext(themeContext);
 	const darkMode = theme.state.darkMode;

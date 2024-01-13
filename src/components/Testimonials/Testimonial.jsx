@@ -8,7 +8,6 @@ import "swiper/css/pagination";
 import testimonial1 from "../../img/testimonial1.jpeg";
 import testimonial2 from "../../img/testimonial2.jpeg";
 import testimonial3 from "../../img/testimonial3.webp";
-import profilePic4 from "../../img/profile4.jpg";
 import Marquee from "react-fast-marquee";
 
 const Testimonial = () => {

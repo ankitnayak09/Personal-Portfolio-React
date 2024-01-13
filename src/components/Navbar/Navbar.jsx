@@ -46,7 +46,7 @@ export default function Navbar() {
 							</li>
 							<li>
 								<Link to="portfolio" spy={true} smooth={true}>
-									Protfolio
+									Portfolio
 								</Link>
 							</li>
 							<li>
@@ -57,7 +57,9 @@ export default function Navbar() {
 						</ul>
 					</div>
 					<Link to="contact" spy={true} smooth={true}>
-						<button className="button n-button">Contact</button>
+						<button className="button n-button whitespace-nowrap">
+							Connect with Me
+						</button>
 					</Link>
 				</div>
 			</div>
