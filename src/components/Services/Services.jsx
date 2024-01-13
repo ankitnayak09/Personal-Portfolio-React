@@ -73,7 +73,7 @@ const Services = () => {
 					/>
 				</motion.div>
 				{/* 3rd */}
-				<motion.div
+				{/* <motion.div
 				// initial={{ top: "20rem", left: "40rem" }}
 				// whileInView={{ left: "32rem" }}
 				// transition={transition}
@@ -87,7 +87,7 @@ const Services = () => {
 						btnText={"Visit Events"}
 						color="rgba(252, 166, 31, 0.45)"
 					/>
-				</motion.div>
+				</motion.div> */}
 				<div
 					className="blur s-blur2"
 					style={{ background: "var(--purple)" }}
