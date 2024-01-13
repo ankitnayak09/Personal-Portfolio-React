@@ -53,6 +53,8 @@ const Services = () => {
 						details={
 							"Facilitation and collaboration skills, Team building and leadership development, Strategic planning and implementation"
 						}
+						btnText={"Visit Events"}
+						btnLink={"/events"}
 					/>
 				</motion.div>
 				{/* second card */}
@@ -67,6 +69,8 @@ const Services = () => {
 						details={
 							"Online community creation and management, Social media strategy and engagement, Content creation and marketing, Event planning and execution"
 						}
+						btnText={"Work History"}
+						btnLink={"/tech"}
 					/>
 				</motion.div>
 				{/* 3rd */}
@@ -81,6 +85,7 @@ const Services = () => {
 						details={
 							"Consulting services for businesses and organizations, Workshops and training programs, Mentorship and coaching"
 						}
+						btnText={"Visit Events"}
 						color="rgba(252, 166, 31, 0.45)"
 					/>
 				</motion.div>

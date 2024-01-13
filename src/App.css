@@ -59,4 +59,8 @@ body {
 
   
 
-  
+  /* Event Page */
+  .bg-custom {
+    background: url("./img/black-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }

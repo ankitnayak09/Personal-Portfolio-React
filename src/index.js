@@ -14,7 +14,7 @@ ReactDOM.render(
 				<Routes>
 					<Route path="/" element={<App />} />
 					<Route path="/tech" element={<TechPage />} />
-					<Route path="/event" element={<EventPage />} />
+					<Route path="/events" element={<EventPage />} />
 				</Routes>
 			</MenuProvider>
 		</ThemeProvider>
