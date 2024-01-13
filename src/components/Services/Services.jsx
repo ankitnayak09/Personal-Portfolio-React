@@ -6,7 +6,6 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from "./resume.pdf";
 
 const Services = () => {
 	// context
@@ -29,11 +28,11 @@ const Services = () => {
 				</span>
 				<span>Capabilities and Impact</span>
 				<span></span>
-				<a href={Resume} download className="w-max rounded-3xl my-4">
+				{/* <a href={#} download className="w-max rounded-3xl my-4">
 					<button className="button s-button my-4">
 						Download CV
 					</button>
-				</a>
+				</a> */}
 				<div
 					className="blur s-blur1"
 					style={{ background: "#ABF1FF94" }}
@@ -51,7 +50,7 @@ const Services = () => {
 						emoji={HeartEmoji}
 						heading={"Event Organizer"}
 						details={
-							"Facilitation and collaboration skills, Team building and leadership development, Strategic planning and implementation"
+							"I excel in crafting unforgettable experiences with meticulous planning and creative flair. Trust me to exceed expectations and leave lasting impressions."
 						}
 						btnText={"Visit Events"}
 						btnLink={"/events"}
@@ -67,7 +66,7 @@ const Services = () => {
 						emoji={Glasses}
 						heading={"Software Development"}
 						details={
-							"Online community creation and management, Social media strategy and engagement, Content creation and marketing, Event planning and execution"
+							"Experienced software developer crafting efficient, innovative solutions through clean coding and cutting-edge technologies for successful, scalable applications."
 						}
 						btnText={"Work History"}
 						btnLink={"/tech"}

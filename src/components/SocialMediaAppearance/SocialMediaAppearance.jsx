@@ -5,7 +5,9 @@ import { links } from "./Links";
 export default function SocialMediaAppearance() {
 	return (
 		<section className="social-media-gallery" id="social-media-gallery">
-			<h2>Captivating Connections: A Gallery of Community Impact</h2>
+			<h2 className="text-3xl font-bold text-center mt-8 mb-4">
+				Social Media Appearances
+			</h2>
 			<div class="row">
 				<div class="column">
 					{links["column1"]?.map((link) => {

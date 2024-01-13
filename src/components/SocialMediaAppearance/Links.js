@@ -50,14 +50,14 @@ export const links = {
 			type: "instagram",
 			url: "https://www.instagram.com/reel/Cw-oJjzvCsV/?utm_source=ig_embed&amp;utm_campaign=loading",
 		},
-		// {
-		// 	type: "instagram",
-		// 	url: "https://www.instagram.com/reel/CrgBAmSIF2p/?utm_source=ig_embed&amp;utm_campaign=loading",
-		// },
-		// {
-		// 	type: "instagram",
-		// 	url: "https://www.instagram.com/p/CpcrrfmPMnj/?utm_source=ig_embed&amp;utm_campaign=loading",
-		// },
+		{
+			type: "instagram",
+			url: "https://www.instagram.com/reel/CrgBAmSIF2p/?utm_source=ig_embed&amp;utm_campaign=loading",
+		},
+		{
+			type: "instagram",
+			url: "https://www.instagram.com/p/CpcrrfmPMnj/?utm_source=ig_embed&amp;utm_campaign=loading",
+		},
 	],
 	column3: [
 		{
@@ -68,25 +68,25 @@ export const links = {
 			type: "instagram",
 			url: "https://www.instagram.com/p/CzaTvPJSXcY/?utm_source=ig_embed&amp;utm_campaign=loading",
 		},
-		// {
-		// 	type: "instagram",
-		// 	url: "https://www.instagram.com/p/CosGv_YPZDI/?utm_source=ig_embed&amp;utm_campaign=loading",
-		// },
-		// {
-		// 	type: "instagram",
-		// 	url: "https://www.instagram.com/p/Cw8b8JVyXyD/?utm_source=ig_embed&amp;utm_campaign=loading",
-		// },
-		// {
-		// 	type: "instagram",
-		// 	url: "https://www.instagram.com/p/ClQJj8vJqiu/?utm_source=ig_embed&amp;utm_campaign=loading",
-		// },
-		// {
-		// 	type: "instagram",
-		// 	url: "https://www.instagram.com/p/CrRJo0fhN4a/?utm_source=ig_embed&amp;utm_campaign=loading",
-		// },
-		// {
-		// 	type: "instagram",
-		// 	url: "https://www.instagram.com/reel/CqDeTgcI7CW/?utm_source=ig_embed&amp;utm_campaign=loading",
-		// },
+		{
+			type: "instagram",
+			url: "https://www.instagram.com/p/CosGv_YPZDI/?utm_source=ig_embed&amp;utm_campaign=loading",
+		},
+		{
+			type: "instagram",
+			url: "https://www.instagram.com/p/Cw8b8JVyXyD/?utm_source=ig_embed&amp;utm_campaign=loading",
+		},
+		{
+			type: "instagram",
+			url: "https://www.instagram.com/p/ClQJj8vJqiu/?utm_source=ig_embed&amp;utm_campaign=loading",
+		},
+		{
+			type: "instagram",
+			url: "https://www.instagram.com/p/CrRJo0fhN4a/?utm_source=ig_embed&amp;utm_campaign=loading",
+		},
+		{
+			type: "instagram",
+			url: "https://www.instagram.com/reel/CqDeTgcI7CW/?utm_source=ig_embed&amp;utm_campaign=loading",
+		},
 	],
 };
