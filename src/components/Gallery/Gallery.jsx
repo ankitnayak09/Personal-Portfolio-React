@@ -16,23 +16,6 @@ export default function Gallery() {
 			<h2 className="text-3xl font-bold text-center mt-8 mb-4">
 				Captivating Connections: A Gallery of Community Impact
 			</h2>
-			{/* <div class="row">
-				<div class="column">
-					{images["column1"].map((img) => (
-						<Card img={img} />
-					))}
-				</div>
-				<div class="column">
-					{images["column2"].map((img) => (
-						<Card img={img} />
-					))}
-				</div>
-				<div class="column">
-					{images["column3"].map((img) => (
-						<Card img={img} />
-					))}
-				</div>
-			</div> */}
 			<Swiper
 				slidesPerView={"auto"}
 				centeredSlides={true}
@@ -49,7 +32,7 @@ export default function Gallery() {
 				className="mySwiper"
 			>
 				{images.map((image) => (
-					<SwiperSlide>
+					<SwiperSlide className="!w-auto">
 						<img
 							src={image.src}
 							alt=""
