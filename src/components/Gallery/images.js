@@ -139,10 +139,12 @@ export const facultyImages = [
 	},
 	{
 		src: pic11,
+		caption:
+			"Mr Rocky Bhatia, He leads the MCE area, technically drives Rocky has received 25+ Professional Awards.",
 	},
 	{
 		src: pic12,
-		caption: "Madam Rashmi Mittal",
+		caption: "Respected Pro Chancellor, Madam Rashmi Mittal",
 	},
 	{
 		src: pic14,
@@ -193,15 +195,18 @@ export const celebrityImages = [
 	},
 	{
 		src: pic26,
-		caption: "Nishant Chahar",
+		caption:
+			"Mr. Nishant Chahar(SDE Microsoft) and Mr. Subhesh Kumar (SDE Amazon,Berlin)",
 	},
 	{
 		src: pic27,
-		caption: "Nishant Chahar",
+		caption:
+			"Mr. Nishant Chahar(SDE Microsoft) and Mr. Subhesh Kumar (SDE Amazon,Berlin)",
 	},
 	{
 		src: pic30,
-		caption: "Rahul Maheshwari",
+		caption:
+			"Mr Rahul Maheshwari,Ex-Adobe,Ex-Google,Founder - LinuxSocials,90k+  followers on linkdin",
 	},
 	{
 		src: pic47,
@@ -217,14 +222,22 @@ export const celebrityImages = [
 	},
 	{
 		src: pic37,
-		caption: "Rahul Maheshwari",
+		caption:
+			"Mr Rahul Maheshwari,Ex-Adobe,Ex-Google,Founder - LinuxSocials,90k+  followers on linkdin",
 	},
 	{
 		src: pic41,
-		caption: "Aman Dhatterwal",
+		caption:
+			"Mr Aman Dhattarwal, Founder of Apna Kaksha & Apna College. The most renounced Ed-Tech Youtuber with over 8 Million+ students   across   the   internet.",
 	},
 	{
 		src: pic45,
-		caption: "Shashank Mishra",
+		caption:
+			"Mr Shashank Mishra, Experienced Data Engineer with a demonstrated history of working in service and product companies.",
+	},
+	{
+		src: pic19,
+		caption:
+			"Mr Anuj Kumar Sharma, Ex-Amazon, Ex-Urban Company 100k+ follower on linkdin",
 	},
 ];
