@@ -1,4 +1,8 @@
-import { InstagramEmbed, LinkedInEmbed } from "react-social-media-embed";
+import {
+	InstagramEmbed,
+	LinkedInEmbed,
+	YouTubeEmbed,
+} from "react-social-media-embed";
 import "./Style.css";
 import { links } from "./Links";
 
@@ -11,29 +15,104 @@ export default function SocialMediaAppearance() {
 			<div class="row">
 				<div class="column">
 					{links["column1"]?.map((link) => {
-						return link.type === "instagram" ? (
-							<InstagramEmbed url={link.url} key={link.url} />
-						) : (
-							<LinkedInEmbed url={link.url} key={link.url} />
-						);
+						if (link.type === "instagram")
+							return (
+								<div>
+									<InstagramEmbed
+										url={link.url}
+										key={link.url}
+									/>
+								</div>
+							);
+						else if (link.type === "linkedin") {
+							return (
+								<div>
+									<LinkedInEmbed
+										url={link.url}
+										key={link.url}
+									/>
+								</div>
+							);
+						} else if (link.type === "youtube") {
+							return (
+								<div>
+									<YouTubeEmbed
+										url={link.url}
+										key={link.url}
+										width={"100%"}
+										height={220}
+									/>
+								</div>
+							);
+						} else return null;
 					})}
 				</div>
 				<div class="column">
 					{links["column2"]?.map((link) => {
-						return link.type === "instagram" ? (
-							<InstagramEmbed url={link.url} key={link.url} />
-						) : (
-							<LinkedInEmbed url={link.url} key={link.url} />
-						);
+						if (link.type === "instagram")
+							return (
+								<div>
+									<InstagramEmbed
+										url={link.url}
+										key={link.url}
+									/>
+								</div>
+							);
+						else if (link.type === "linkedin") {
+							return (
+								<div>
+									<LinkedInEmbed
+										url={link.url}
+										key={link.url}
+									/>
+								</div>
+							);
+						} else if (link.type === "youtube") {
+							return (
+								<div>
+									<YouTubeEmbed
+										url={link.url}
+										key={link.url}
+										width={"100%"}
+										height={220}
+									/>
+								</div>
+							);
+						} else return null;
 					})}
 				</div>
-				<div class="column">
+				<div class="column hidden md:block">
 					{links["column3"]?.map((link) => {
-						return link.type === "instagram" ? (
-							<InstagramEmbed url={link.url} key={link.url} />
-						) : (
-							<LinkedInEmbed url={link.url} key={link.url} />
-						);
+						if (link.type === "instagram")
+							return (
+								<div>
+									<InstagramEmbed
+										url={link.url}
+										key={link.url}
+									/>
+								</div>
+							);
+						else if (link.type === "linkedin") {
+							return (
+								<div>
+									<LinkedInEmbed
+										url={link.url}
+										key={link.url}
+									/>
+								</div>
+							);
+						} else if (link.type === "youtube") {
+							return (
+								<div>
+									<YouTubeEmbed
+										url={link.url}
+										key={link.url}
+										width={"100%"}
+										height={220}
+									/>
+								</div>
+							);
+						} else return null;
 					})}
 				</div>
 			</div>
