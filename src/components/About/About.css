@@ -21,7 +21,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient( transparent,rgba(0,0,0,1));
+  background: rgba(0,0,0,.85);
 }
   .left img {
     width: 100%;

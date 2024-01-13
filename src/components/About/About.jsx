@@ -32,8 +32,32 @@ export default function About() {
 						transition={{ delay: 0.3 }}
 					/>
 				</div>
-				<div className="right flex-1 basis-2/3 text-white">
+				<div className="right flex-1 basis-2/3 text-white font-semibold text-2xl">
 					<p className="tracking-wide">
+						I'm Souhardya Bose, a dynamic community builder with a
+						proven track record. My leadership has significantly
+						scaled community growth, improved communication skills,
+						and boosted students' confidence in real-world
+						scenarios.
+					</p>
+					<p className="my-2 tracking-wide">
+						As the founder of technical entities like Developers
+						Students Club and Google Developers Students Clubs, I've
+						mentored Microsoft Learn Student Ambassadors and served
+						as the Chairperson of IEEE LPU. I've also been appointed
+						as NEP SAARTHI by the Government of India, UGC, Ministry
+						of Education, representing India's largest university at
+						the UGC Chairman.
+					</p>
+					<p className="tracking-wide">
+						I've hosted various workshops, seminars, and podcasts
+						for the Google Developer Students Club community. With a
+						Microsoft Technical Associate certification in Java,
+						I've completed industrial research training at IIT
+						Kanpur under Dr. Aman Karkey, HOD CSE. My ongoing
+						research focuses on AI, deep fake, and ML.
+					</p>
+					{/* <p className="tracking-wide">
 						My story starts with a simple belief:{" "}
 						<span className="font-bold italic">
 							people are stronger together{" "}
@@ -61,7 +85,7 @@ export default function About() {
 						committed to using my skills and expertise to help
 						individuals and organizations build stronger, more
 						connected communities.
-					</p>
+					</p> */}
 				</div>
 			</div>
 			{/* <div className="flex justify-center items-center">
