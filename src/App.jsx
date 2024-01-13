@@ -14,9 +14,10 @@ import About from "./components/About/About";
 import GallerySection from "./components/Gallery/Gallery";
 import SocialMediaAppearance from "./components/SocialMediaAppearance/SocialMediaAppearance";
 import EventTimeline from "./components/EventTimeline/EventTimeline";
-import CelebrityGallery from "./components/CelebrityGallery/CelebrityGallery";
 import Sidebar from "./components/Sidebar/Sidebar";
 import { useMenuContext } from "./context/contextAPI";
+import CelebGallery from "./components/CelebGallery/CelebGallery";
+import CollegeGallery from "./components/CollegeGallery/CollegeGallery";
 
 function App() {
 	const theme = useContext(themeContext);
@@ -42,8 +43,9 @@ function App() {
 			{/* <Works /> */}
 			{/* <Portfolio /> */}
 			<EventTimeline />
+			<CelebGallery />
+			<CollegeGallery />
 			<GallerySection />
-			<CelebrityGallery />
 			<Testimonial />
 			<SocialMediaAppearance />
 			<Contact />

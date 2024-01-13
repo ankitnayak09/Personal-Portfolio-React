@@ -121,68 +121,110 @@ export const images = [
 	},
 ];
 
-export const facultyImages = {
-	column1: [
-		{
-			// src: pic21,
-			caption: "",
-		},
-	],
-};
+export const facultyImages = [
+	{
+		src: pic1,
+	},
+	{
+		src: pic3,
+	},
+	{
+		src: pic4,
+	},
+	{
+		src: pic5,
+	},
+	{
+		src: pic6,
+	},
+	{
+		src: pic11,
+	},
+	{
+		src: pic12,
+		caption: "Madam Rashmi Mittal",
+	},
+	{
+		src: pic14,
+	},
+	{
+		src: pic32,
+	},
+	{
+		src: pic34,
+	},
+];
 
-export const celebrityImages = {
-	column1: [
-		{
-			src: pic21,
-			caption: "Faisal Malik",
-		},
-		{
-			src: pic22,
-			caption: "Faisal Malik",
-		},
-		{
-			src: pic25,
-			caption: "Sourabh Dubey",
-		},
-		{
-			src: pic26,
-			caption: "Nishant Chahar",
-		},
-	],
-	column2: [
-		{
-			src: pic27,
-			caption: "Nishant Chahar",
-		},
-		{
-			src: pic30,
-			caption: "Rahul Maheshwari",
-		},
-		{
-			src: pic47,
-			caption: "Podcast",
-		},
-		{
-			src: pic48,
-			caption: "Podcast",
-		},
-		{
-			src: pic49,
-			caption: "Podcast",
-		},
-	],
-	column3: [
-		{
-			src: pic37,
-			caption: "Rahul Maheshwari",
-		},
-		{
-			src: pic41,
-			caption: "Aman Dhatterwal",
-		},
-		{
-			src: pic45,
-			caption: "Shashank Mishra",
-		},
-	],
-};
+export const communityImages = [
+	{
+		src: pic2,
+	},
+	{
+		src: pic16,
+	},
+	{
+		src: pic17,
+	},
+	{
+		src: pic18,
+	},
+	{
+		src: pic24,
+	},
+	{
+		src: pic29,
+	},
+	{
+		src: pic31,
+	},
+	{
+		src: pic33,
+	},
+];
+
+export const celebrityImages = [
+	{
+		src: pic22,
+		caption: "Faisal Malik",
+	},
+	{
+		src: pic25,
+		caption: "Sourabh Dubey",
+	},
+	{
+		src: pic26,
+		caption: "Nishant Chahar",
+	},
+	{
+		src: pic27,
+		caption: "Nishant Chahar",
+	},
+	{
+		src: pic30,
+		caption: "Rahul Maheshwari",
+	},
+	{
+		src: pic47,
+		caption: "Podcast",
+	},
+	{
+		src: pic48,
+		caption: "Podcast",
+	},
+	{
+		src: pic49,
+		caption: "Podcast",
+	},
+	{
+		src: pic37,
+		caption: "Rahul Maheshwari",
+	},
+	{
+		src: pic41,
+		caption: "Aman Dhatterwal",
+	},
+	{
+		src: pic45,
+		caption: "Shashank Mishra",
+	},
+];

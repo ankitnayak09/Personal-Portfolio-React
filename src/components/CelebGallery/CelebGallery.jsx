@@ -1,6 +1,5 @@
 import React from "react";
 // import "./Gallery.css";
-import { communityImages, images } from "./images";
 import Card from "./Card/Card";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,12 +8,13 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper";
+import { celebrityImages } from "../Gallery/images";
 
-export default function Gallery() {
+export default function CelebGallery() {
 	return (
 		<section className="Gallery" id="gallery">
 			<h2 className="text-3xl font-bold text-center mt-8 mb-4">
-				Captivating Connections: A Gallery of Community Impact
+				Faces of Inspiration: A Gallery of Collaboration and Connection
 			</h2>
 			<Swiper
 				slidesPerView={"auto"}
@@ -31,13 +31,18 @@ export default function Gallery() {
 				modules={[Autoplay, Pagination, Navigation]}
 				className="mySwiper"
 			>
-				{communityImages.map((image) => (
+				{celebrityImages.map((image) => (
 					<SwiperSlide className="!w-auto">
-						<img
-							src={image.src}
-							alt=""
-							className="h-96 w-auto mx-auto"
-						/>
+						<div className="relative">
+							<img
+								src={image.src}
+								alt=""
+								className="h-96 w-auto mx-auto"
+							/>
+							<p className="absolute bottom-0 w-full text-white bg-[rgba(0,0,0,0.5)] text-center">
+								{image.caption}
+							</p>
+						</div>
 					</SwiperSlide>
 				))}
 			</Swiper>
