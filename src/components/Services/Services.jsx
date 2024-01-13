@@ -28,13 +28,8 @@ const Services = () => {
 					My Awesome
 				</span>
 				<span>Capabilities and Impact</span>
-				<span>
-					Lorem ispum is simpley dummy text of printing of printing
-					Lorem
-					<br />
-					ispum is simpley dummy text of printing
-				</span>
-				<a href={Resume} download>
+				<span></span>
+				<a href={Resume} download className="w-max rounded-3xl my-4">
 					<button className="button s-button my-4">
 						Download CV
 					</button>
@@ -54,7 +49,7 @@ const Services = () => {
 				>
 					<Card
 						emoji={HeartEmoji}
-						heading={"Organization"}
+						heading={"Event Organizer"}
 						details={
 							"Facilitation and collaboration skills, Team building and leadership development, Strategic planning and implementation"
 						}
@@ -68,7 +63,7 @@ const Services = () => {
 				>
 					<Card
 						emoji={Glasses}
-						heading={"Tech"}
+						heading={"Software Development"}
 						details={
 							"Online community creation and management, Social media strategy and engagement, Content creation and marketing, Event planning and execution"
 						}
