@@ -50,14 +50,6 @@ function Sidebar() {
 				Gallery
 			</Link>
 			<Link
-				to="portfolio"
-				spy={true}
-				smooth={true}
-				className="text-2xl cursor-pointer hover:scale-110 transition-all hover:shadow-md"
-			>
-				Portfolio
-			</Link>
-			<Link
 				to="testimonial"
 				spy={true}
 				smooth={true}

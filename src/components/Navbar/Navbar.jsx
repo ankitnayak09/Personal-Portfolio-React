@@ -45,11 +45,6 @@ export default function Navbar() {
 								</Link>
 							</li>
 							<li>
-								<Link to="portfolio" spy={true} smooth={true}>
-									Portfolio
-								</Link>
-							</li>
-							<li>
 								<Link to="testimonial" spy={true} smooth={true}>
 									Testimonial
 								</Link>
