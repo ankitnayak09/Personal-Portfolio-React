@@ -15,6 +15,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 2px white;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px white;
+  }
+}
+
 body {
   overflow-x: hidden;
 }
