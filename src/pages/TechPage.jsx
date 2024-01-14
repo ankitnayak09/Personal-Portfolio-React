@@ -3,31 +3,49 @@ import {
 	VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import mentroLogo from "../img/mentro_official_logo.jpeg";
 export default function TechPage() {
 	return (
 		<VerticalTimeline>
 			<VerticalTimelineElement
 				className="vertical-timeline-element--work"
 				contentStyle={{
-					background: "rgb(33, 150, 243)",
+					// background: "rgb(33, 150, 243)",
+					background: "#242D49",
 					color: "#fff",
 				}}
 				contentArrowStyle={{
-					borderRight: "7px solid  rgb(33, 150, 243)",
+					borderRight: "7px solid  #242D49",
 				}}
 				date="2011 - present"
 				iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
 				// icon={<WorkIcon />}
 			>
-				<h3 className="vertical-timeline-element-title">
-					Creative Director
+				<h3 className="vertical-timeline-element-title font-bold">
+					Founding Board Member | Product & Strategy
 				</h3>
-				<h4 className="vertical-timeline-element-subtitle">
-					Miami, FL
+				<h4 className="vertical-timeline-element-subtitle flex items-center gap-2">
+					<a
+						href="https://mentro.tech/"
+						target="_blank"
+						className="hover:scale-105 transition-all"
+					>
+						<img src={mentroLogo} alt="" className="w-10" />
+					</a>
+					<a
+						href="https://mentro.tech/"
+						target="_blank"
+						className="hover:scale-105 transition-all"
+					>
+						Mentro
+					</a>
 				</h4>
 				<p>
-					Creative Direction, User Experience, Visual Design, Project
-					Management, Team Leading
+					Dare to be Better. Download the app now!
+					<br /> ✅ 20,000+ Hustlers daring for a better career
+					<br /> ✅ 5,000+ Mentorship sessions started by mentees
+					<br /> ✅ Recognized as Top 10% in the world by YC
+					(Y-Combinator).
 				</p>
 			</VerticalTimelineElement>
 			<VerticalTimelineElement
