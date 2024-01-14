@@ -10,9 +10,8 @@ import { celebrityImages, facultyImages } from "../Gallery/images";
 export default function CollegeGallery() {
 	return (
 		<section className="Gallery" id="gallery">
-			<h2 className="text-3xl font-bold text-center mt-8 mb-4">
-				Behind the Bookshelves: A Glimpse into University's Inspiring
-				Minds
+			<h2 className="text-xl md:text-3xl font-bold text-center mt-8 mb-4">
+				Institutional Leaders: University's Inspiring Minds
 			</h2>
 			<Swiper
 				slidesPerView={"auto"}
@@ -23,11 +22,11 @@ export default function CollegeGallery() {
 				}}
 				navigation={true}
 				autoplay={{
-					delay: 1500,
-					disableOnInteraction: false,
+					delay: 2000,
+					disableOnInteraction: true,
 				}}
 				modules={[Autoplay, Pagination, Navigation]}
-				className="mySwiper"
+				className="mySwiper h-60 md:h-auto"
 			>
 				{facultyImages.map((image) => (
 					<SwiperSlide className="!w-auto">
@@ -35,9 +34,9 @@ export default function CollegeGallery() {
 							<img
 								src={image.src}
 								alt=""
-								className="h-96 w-auto mx-auto"
+								className="h-60 md:h-96 w-auto mx-auto"
 							/>
-							<p className="absolute bottom-0 w-full text-white bg-[rgba(0,0,0,0.5)] text-center">
+							<p className="text-xs absolute bottom-0 w-full text-white bg-[rgba(0,0,0,0.5)] text-center">
 								{image.caption}
 							</p>
 						</div>
