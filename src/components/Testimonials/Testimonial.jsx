@@ -37,11 +37,18 @@ const Testimonial = () => {
 
 	return (
 		<>
-			<div className="t-wrapper" id="testimonial">
-				<div className="t-heading">
-					<span>Empowering Words:</span>
-					<span> Testimonials from Leaders </span>
-					<span>and Learners</span>
+			<div className="t-wrapper mt-10" id="testimonial">
+				<div className="t-heading text-center">
+					<span className="text-lg md:text-4xl font-bold">
+						Empowering Words:
+					</span>
+					<span className="text-lg md:text-4xl font-bold">
+						{" "}
+						Testimonials from Leaders{" "}
+					</span>
+					<span className="text-lg md:text-4xl font-bold">
+						and Learners
+					</span>
 					<div
 						className="blur t-blur1"
 						style={{ background: "var(--purple)" }}
@@ -51,31 +58,11 @@ const Testimonial = () => {
 						style={{ background: "skyblue" }}
 					></div>
 				</div>
-				{/* <Swiper
-					// install Swiper modules
-					modules={[Pagination]}
-					slidesPerView={1}
-					pagination={{ clickable: true }}
-				>
-					{clients.map((client, index) => {
-						return (
-							<SwiperSlide key={index}>
-								<div className="testimonial">
-									<a href={client.url}>
-										<img src={client.img} alt="" />
-									</a>
-									<span>{client.name}</span>
-									<span>{client.review}</span>
-								</div>
-							</SwiperSlide>
-						);
-					})}
-				</Swiper> */}
 			</div>
 			<Marquee style={{ height: "100%" }}>
 				{clients.map((client, index) => {
 					return (
-						<div className="testimonial-card">
+						<div className="testimonial-card flex-col md:flex items-center">
 							<img src={client.img} alt="" />
 							<div>
 								<div className="client-name">{client.name}</div>
