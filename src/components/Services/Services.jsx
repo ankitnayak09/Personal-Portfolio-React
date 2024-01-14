@@ -69,7 +69,7 @@ const Services = () => {
 							"Experienced software developer crafting efficient, innovative solutions through clean coding and cutting-edge technologies for successful, scalable applications."
 						}
 						btnText={"Work History"}
-						btnLink={"/tech"}
+						btnLink={"#"}
 					/>
 				</motion.div>
 				{/* 3rd */}

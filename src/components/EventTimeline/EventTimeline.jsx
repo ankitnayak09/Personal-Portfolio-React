@@ -4,6 +4,8 @@ import sourabhDwivedi from "../../img/new/5.JPG";
 import amanDhattarwal from "../../img/new/amanDhattarwalEvent.jpg";
 import getPlaced from "../../img/new/6 (copy).jpg";
 import technocean from "../../img/new/13.jpg";
+import rahul from "../../img/new/podcast of infuencer/2.jpg";
+import session from "../../img/gallery/17.jpeg";
 
 export default function EventTimeline() {
 	const transition = { duration: 2, type: "spring" };
@@ -85,13 +87,14 @@ export default function EventTimeline() {
 					className="relative group overflow-hidden"
 				>
 					<img
-						src={sourabhDwivedi}
+						src={rahul}
 						className="object-cover aspect-square group-hover:scale-110 transition-all"
 						alt=""
 					/>
 					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg">
-						Lorem, ipsum dolor sit amet consectetur adipisicing
-						elit. Excepturi, aspernatur.
+						Podcast Session with Mr Rahul Maheshwari,
+						Ex-Adobe,Ex-Google,Founder - LinuxSocials,90k+ followers
+						on linkdin
 					</p>
 				</motion.div>
 				<motion.div
@@ -119,13 +122,12 @@ export default function EventTimeline() {
 					className="relative group overflow-hidden"
 				>
 					<img
-						src={sourabhDwivedi}
+						src={session}
 						className="object-cover aspect-square group-hover:scale-110 transition-all"
 						alt=""
 					/>
 					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg">
-						Lorem, ipsum dolor sit amet consectetur adipisicing
-						elit. Excepturi, aspernatur.
+						Session on "How to Boost Your Career using LinkedIn"
 					</p>
 				</motion.div>
 			</div>

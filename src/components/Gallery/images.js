@@ -137,18 +137,12 @@ export const facultyImages = [
 	{
 		src: pic6,
 	},
-	{
-		src: pic11,
-		caption:
-			"Mr Rocky Bhatia, He leads the MCE area, technically drives Rocky has received 25+ Professional Awards.",
-	},
+
 	{
 		src: pic12,
 		caption: "Respected Pro Chancellor, Madam Rashmi Mittal",
 	},
-	{
-		src: pic14,
-	},
+
 	{
 		src: pic32,
 	},
@@ -187,11 +181,11 @@ export const communityImages = [
 export const celebrityImages = [
 	{
 		src: pic22,
-		caption: "Faisal Malik",
+		caption: "Faisal Malik, Guest Speaker @ Xpression",
 	},
 	{
 		src: pic25,
-		caption: "Sourabh Dubey",
+		caption: "Sourabh Dubey, Guest Speaker @ Xpression",
 	},
 	{
 		src: pic26,
@@ -210,20 +204,20 @@ export const celebrityImages = [
 	},
 	{
 		src: pic47,
-		caption: "Podcast",
+		caption: "Podcast Session with Mr Nishant Chahar and Mr Subhesh Kumar",
 	},
 	{
 		src: pic48,
-		caption: "Podcast",
+		caption: "Podcast Session with Mr Rahul Maheshwari",
 	},
 	{
 		src: pic49,
-		caption: "Podcast",
+		caption: "Podcast Session with Mr Rahul Maheshwari",
 	},
 	{
 		src: pic37,
 		caption:
-			"Mr Rahul Maheshwari,Ex-Adobe,Ex-Google,Founder - LinuxSocials,90k+  followers on linkdin",
+			"Mr Rahul Maheshwari,Ex-Adobe,Ex-Google,Founder - LinuxSocials,90k+  followers on linkedin",
 	},
 	{
 		src: pic41,
@@ -239,5 +233,10 @@ export const celebrityImages = [
 		src: pic19,
 		caption:
 			"Mr Anuj Kumar Sharma, Ex-Amazon, Ex-Urban Company 100k+ follower on linkdin",
+	},
+	{
+		src: pic11,
+		caption:
+			"Mr Rocky Bhatia, He leads the MCE area, technically drives Rocky has received 25+ Professional Awards.",
 	},
 ];
