@@ -81,7 +81,7 @@ export default function SocialMediaAppearance() {
 						} else return null;
 					})}
 				</div>
-				<div class="column hidden md:block">
+				<div class="column">
 					{links["column3"]?.map((link) => {
 						if (link.type === "instagram")
 							return (

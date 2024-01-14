@@ -17,6 +17,7 @@ import { useMenuContext } from "./context/contextAPI";
 import CelebGallery from "./components/CelebGallery/CelebGallery";
 import CollegeGallery from "./components/CollegeGallery/CollegeGallery";
 import Podcast from "./components/Podcast/Podcast";
+import Achievements from "./components/Achievements/Achievements";
 
 function App() {
 	const theme = useContext(themeContext);
@@ -40,6 +41,7 @@ function App() {
 			<Podcast />
 			<Services />
 			<Experience />
+			<Achievements />
 			<EventTimeline />
 			<CelebGallery />
 			<CollegeGallery />
