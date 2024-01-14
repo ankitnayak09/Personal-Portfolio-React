@@ -13,7 +13,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 export default function Gallery() {
 	return (
 		<section className="Gallery" id="gallery">
-			<h2 className="text-3xl font-bold text-center mt-8 mb-4">
+			<h2 className="text-lg md:text-3xl font-bold text-center mt-8 mb-4">
 				Captivating Connections: A Gallery of Community Impact
 			</h2>
 			<Swiper
@@ -25,18 +25,18 @@ export default function Gallery() {
 				}}
 				navigation={true}
 				autoplay={{
-					delay: 1500,
-					disableOnInteraction: false,
+					delay: 2000,
+					disableOnInteraction: true,
 				}}
 				modules={[Autoplay, Pagination, Navigation]}
-				className="mySwiper"
+				className="mySwiper h-40 md:h-auto"
 			>
 				{communityImages.map((image) => (
 					<SwiperSlide className="!w-auto">
 						<img
 							src={image.src}
 							alt=""
-							className="h-96 w-auto mx-auto"
+							className="h-40 md:h-96 w-auto mx-auto"
 						/>
 					</SwiperSlide>
 				))}
