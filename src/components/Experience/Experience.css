@@ -1,7 +1,31 @@
 .achievement{
-    display: flex;
+    /* display: flex;
     flex-direction: column;    
-    align-items: center;
+    align-items: center; */
+}
+.experience {
+    position: relative;
+}
+.experience::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../../img/growingGraph.jpg") no-repeat center center fixed;
+    background-size: cover;
+    z-index: -2;
+}
+.experience::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
 }
 .circle {
     width: 4rem;
@@ -14,7 +38,6 @@
     justify-content: center;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom: 2rem;
 }
 .circle::before {
     border-radius: 100%;
@@ -36,6 +59,6 @@
 
 @media screen and (max-width: 480px) {
     .experience{
-        transform: scale(0.7);
+        /* transform: scale(0.7); */
     }
 }

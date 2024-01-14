@@ -22,6 +22,7 @@ function Sidebar() {
 				spy={true}
 				smooth={true}
 				className="text-2xl cursor-pointer hover:scale-110 transition-all hover:shadow-md"
+				onClick={() => setIsOpen(!isOpen)}
 			>
 				Home
 			</Link>
@@ -30,6 +31,7 @@ function Sidebar() {
 				spy={true}
 				smooth={true}
 				className="text-2xl cursor-pointer hover:scale-110 transition-all hover:shadow-md"
+				onClick={() => setIsOpen(!isOpen)}
 			>
 				About
 			</Link>
@@ -38,6 +40,7 @@ function Sidebar() {
 				spy={true}
 				smooth={true}
 				className="text-2xl cursor-pointer hover:scale-110 transition-all hover:shadow-md"
+				onClick={() => setIsOpen(!isOpen)}
 			>
 				Serivces
 			</Link>
@@ -46,6 +49,7 @@ function Sidebar() {
 				spy={true}
 				smooth={true}
 				className="text-2xl cursor-pointer hover:scale-110 transition-all hover:shadow-md"
+				onClick={() => setIsOpen(!isOpen)}
 			>
 				Gallery
 			</Link>
@@ -54,6 +58,7 @@ function Sidebar() {
 				spy={true}
 				smooth={true}
 				className="text-2xl cursor-pointer hover:scale-110 transition-all hover:shadow-md"
+				onClick={() => setIsOpen(!isOpen)}
 			>
 				Testimonial
 			</Link>
@@ -62,6 +67,7 @@ function Sidebar() {
 				spy={true}
 				smooth={true}
 				className="text-2xl cursor-pointer hover:scale-110 transition-all hover:shadow-md"
+				onClick={() => setIsOpen(!isOpen)}
 			>
 				<button className="button n-button">Contact</button>
 			</Link>

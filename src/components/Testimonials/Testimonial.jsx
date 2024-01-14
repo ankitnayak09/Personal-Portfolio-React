@@ -62,13 +62,19 @@ const Testimonial = () => {
 			<Marquee style={{ height: "100%" }}>
 				{clients.map((client, index) => {
 					return (
-						<div className="testimonial-card flex-col md:flex items-center">
-							<img src={client.img} alt="" />
-							<div>
-								<div className="client-name">{client.name}</div>
-								<div className="client-bio">{client.bio}</div>
-								<div>{client.review}</div>
+						<div className="testimonial-card w-[calc(min(100vw,500px))] bg-white mx-5 border-2 border-[#eee] rounded-xl px-2 py-1">
+							<div className="flex gap-1 items-center">
+								<img src={client.img} alt="" />
+								<div>
+									<div className="client-name">
+										{client.name}
+									</div>
+									<div className="client-bio">
+										{client.bio}
+									</div>
+								</div>
 							</div>
+							<div>{client.review}</div>
 						</div>
 					);
 				})}

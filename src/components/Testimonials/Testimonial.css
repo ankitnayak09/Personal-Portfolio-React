@@ -79,14 +79,14 @@
   }
 
   .testimonial-card {
-    display: flex;
+    /* display: flex;
     min-width: 300px;
     max-width: 500px;
     background-color: #FFFFFFFF;
     margin: 0 20px;
     border: 2px solid #eee;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 5px 10px; */
   }
 
   .testimonial-card img {
@@ -94,7 +94,6 @@
     height: 70px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 10px;
   }
 
   .testimonial-card .client-name {

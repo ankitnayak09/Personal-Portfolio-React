@@ -1,7 +1,6 @@
 import "./About.css";
-import profile_pic from "../../img/profile-pic.png";
-import laptop_png from "../../img/laptop_png.jpg";
 import { motion } from "framer-motion";
+import aboutUs from "../../img/new/aboutUs.JPG";
 
 export default function About() {
 	return (
@@ -25,7 +24,7 @@ export default function About() {
 				></div>
 				<div className="left flex-1 p-4 md:p-0 md:ml-10 basis-1/3">
 					<motion.img
-						src={profile_pic}
+						src={aboutUs}
 						alt=""
 						initial={{ scale: 0 }}
 						whileInView={{ scale: 1 }}

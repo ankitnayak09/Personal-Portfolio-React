@@ -69,3 +69,7 @@ body {
     background: url("./img/black-background.jpg") no-repeat center center fixed;
     background-size: cover;
   }
+
+  .instagram-media {
+    width: auto !important;
+  }
