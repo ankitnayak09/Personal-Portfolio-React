@@ -73,3 +73,12 @@ body {
   .instagram-media {
     width: auto !important;
   }
+
+  .vertical-timeline-element-date {
+    /* color: var(--black); */
+  }
+
+  .techpage {
+    background: url("./img/tech-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
