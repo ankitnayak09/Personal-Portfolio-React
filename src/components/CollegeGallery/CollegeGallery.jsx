@@ -36,7 +36,7 @@ export default function CollegeGallery() {
 								alt=""
 								className="h-60 md:h-96 w-auto mx-auto"
 							/>
-							<p className="text-xs absolute bottom-0 w-full text-white bg-[rgba(0,0,0,0.5)] text-center">
+							<p className="text-xs md:text-base absolute bottom-0 w-full text-white bg-[rgba(0,0,0,0.5)] text-center">
 								{image.caption}
 							</p>
 						</div>

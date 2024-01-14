@@ -49,7 +49,7 @@ import pic49 from "./../../img/new/podcast of infuencer/3.jpg";
 export const images = [
 	{
 		src: pic1,
-		caption: "With Anuj Bhaiya",
+		caption: "Respected Dr. Preeti Bajaj, Vice Chancellor, LPU",
 	},
 	{
 		src: pic2,
@@ -127,6 +127,7 @@ export const facultyImages = [
 	},
 	{
 		src: pic3,
+		caption: "Respected Dr. Prateek Agrawal, Head Of School CSE",
 	},
 	{
 		src: pic4,
@@ -145,6 +146,7 @@ export const facultyImages = [
 
 	{
 		src: pic32,
+		caption: "Respected Sami Anand,Associate Dean & Assistant Professor",
 	},
 	{
 		src: pic34,

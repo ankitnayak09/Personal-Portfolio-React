@@ -1,10 +1,6 @@
 export const links = {
 	column1: [
 		{
-			type: "youtube",
-			url: "https://youtu.be/za9I5owsUEs",
-		},
-		{
 			type: "instagram",
 			url: "https://www.instagram.com/p/Cojom3tpSuf/?utm_source=ig_embed&amp;utm_campaign=loading",
 		},
@@ -38,10 +34,7 @@ export const links = {
 			type: "instagram",
 			url: "https://www.instagram.com/p/Com0L8zpivt/?utm_source=ig_embed&amp;utm_campaign=loading",
 		},
-		{
-			type: "youtube",
-			url: "https://youtu.be/de7qGcxXFc8",
-		},
+
 		{
 			type: "instagram",
 			url: "https://www.instagram.com/p/CxCw5slPBbO/?utm_source=ig_embed&amp;utm_campaign=loading",

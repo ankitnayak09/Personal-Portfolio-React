@@ -16,6 +16,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import { useMenuContext } from "./context/contextAPI";
 import CelebGallery from "./components/CelebGallery/CelebGallery";
 import CollegeGallery from "./components/CollegeGallery/CollegeGallery";
+import Podcast from "./components/Podcast/Podcast";
 
 function App() {
 	const theme = useContext(themeContext);
@@ -36,6 +37,7 @@ function App() {
 			<Sidebar />
 			<Intro />
 			<About />
+			<Podcast />
 			<Services />
 			<Experience />
 			<EventTimeline />
