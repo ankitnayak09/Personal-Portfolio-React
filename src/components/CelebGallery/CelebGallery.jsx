@@ -13,8 +13,8 @@ import { celebrityImages } from "../Gallery/images";
 export default function CelebGallery() {
 	return (
 		<section className="Gallery" id="gallery">
-			<h2 className="text-3xl font-bold text-center mt-8 mb-4">
-				Faces of Inspiration: A Gallery of Collaboration and Connection
+			<h2 className="text-xl md:text-3xl font-bold text-center mt-8 mb-4">
+				Inspiration: Youtubers and Youth Icons
 			</h2>
 			<Swiper
 				slidesPerView={"auto"}
@@ -25,11 +25,11 @@ export default function CelebGallery() {
 				}}
 				navigation={true}
 				autoplay={{
-					delay: 1500,
-					disableOnInteraction: false,
+					delay: 2000,
+					disableOnInteraction: true,
 				}}
 				modules={[Autoplay, Pagination, Navigation]}
-				className="mySwiper"
+				className="mySwiper h-40 md:h-full"
 			>
 				{celebrityImages.map((image) => (
 					<SwiperSlide className="!w-auto">
@@ -37,9 +37,9 @@ export default function CelebGallery() {
 							<img
 								src={image.src}
 								alt=""
-								className="h-96 w-auto mx-auto"
+								className="h-40 md:h-96 w-auto mx-auto object-contain"
 							/>
-							<p className="absolute bottom-0 w-full text-white bg-[rgba(0,0,0,0.5)] text-center">
+							<p className="text-xs line-clamp-2 md:line-clamp-none absolute bottom-0 w-full text-white bg-[rgba(0,0,0,0.5)] text-center">
 								{image.caption}
 							</p>
 						</div>

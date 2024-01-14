@@ -6,7 +6,10 @@ const Experience = () => {
 	const darkMode = theme.state.darkMode;
 
 	return (
-		<div className="experience mt-10" id="experience">
+		<div
+			className="experience mt-10 flex items-center justify-center gap-5 md:gap-20 text-custom-black"
+			id="experience"
+		>
 			<div className="achievement">
 				{/* darkMode */}
 				<div

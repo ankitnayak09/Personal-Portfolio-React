@@ -15,7 +15,7 @@ export default function EventTimeline() {
 			<h2 className="text-4xl font-bold text-center my-4 text-[#242D49]">
 				A Journey in Community Building: Major Events
 			</h2>
-			<div className="grid grid-cols-3 place-items-center">
+			<div className="grid grid-cols-1 md:grid-cols-3 place-items-center">
 				<motion.div
 					initial={{ opacity: 0, scale: 0.5 }}
 					whileInView={{ opacity: 1, scale: 1 }}
@@ -28,7 +28,7 @@ export default function EventTimeline() {
 						alt=""
 					/>
 					<p className="hidden tracking-wide group-hover:flex absolute top-0 left-0 w-full h-full flex-col justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg">
-						<span className="text-2xl font-bold">
+						<span className="text-lg font-bold">
 							Sukoon - Youthfest
 						</span>
 						An amalgam of cultural & technical fun carnival to fill
