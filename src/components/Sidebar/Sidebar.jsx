@@ -9,7 +9,7 @@ function Sidebar() {
 		// isOpen && (
 		<div
 			className={`absolute top-0 left-0 fixed min-h-screen overflow-hidden bg-slate-800 w-full z-10 py-[0.5rem] pt-10 px-[1.5rem] text-stone-100 flex flex-col justify-center items-center gap-2 transition-all ${
-				isOpen ? "left-0" : "left-[100vw]"
+				isOpen ? "left-0" : "left-[150vw]"
 			}`}
 		>
 			<IoCloseSharp

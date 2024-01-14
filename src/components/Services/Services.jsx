@@ -3,7 +3,6 @@ import "./Services.css";
 import Card from "../Card/Card";
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 
@@ -21,13 +20,17 @@ const Services = () => {
 	return (
 		<div className="services" id="services">
 			{/* left side */}
-			<div className="awesome">
+			<div className="awesome my-4 text-center">
 				{/* dark mode */}
-				<span style={{ color: darkMode ? "white" : "" }}>
-					My Awesome
+				<span
+					style={{ color: darkMode ? "white" : "" }}
+					className="text-custom-black text-lg md:text-4xl font-bold"
+				>
+					My Awesome{" "}
 				</span>
-				<span>Capabilities and Impact</span>
-				<span></span>
+				<span className="text-custom-orange  text-lg  md:text-4xl font-bold">
+					Capabilities and Impact
+				</span>
 				{/* <a href={#} download className="w-max rounded-3xl my-4">
 					<button className="button s-button my-4">
 						Download CV

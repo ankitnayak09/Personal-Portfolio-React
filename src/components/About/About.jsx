@@ -18,12 +18,12 @@ export default function About() {
 				A Journey Fueled by Community and Technology
 				{/* About Me */}
 			</motion.h2>
-			<div className="About flex flex-col md:flex-row items-center mb-10 gap-5">
+			<div className="About flex flex-col md:flex-row items-center mb-10 gap-5 px-4 md:px-0">
 				<div
 					className="blur"
 					style={{ background: "rgb(238 210 255)" }}
 				></div>
-				<div className="left flex-1 ml-10 basis-1/3">
+				<div className="left flex-1 p-4 md:p-0 md:ml-10 basis-1/3">
 					<motion.img
 						src={profile_pic}
 						alt=""
@@ -32,7 +32,7 @@ export default function About() {
 						transition={{ delay: 0.3 }}
 					/>
 				</div>
-				<div className="right flex-1 basis-2/3 text-white font-semibold text-2xl">
+				<div className="right flex-1 basis-2/3 text-white font-semibold text-xs md:text-2xl">
 					<p className="tracking-wide">
 						I'm Souhardya Bose, a dynamic community builder with a
 						proven track record. My leadership has significantly
