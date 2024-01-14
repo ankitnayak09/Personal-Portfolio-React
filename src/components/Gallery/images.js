@@ -124,6 +124,7 @@ export const images = [
 export const facultyImages = [
 	{
 		src: pic1,
+		caption: "Respected Dr. Preeti Bajaj, Vice Chancellor, LPU",
 	},
 	{
 		src: pic3,
@@ -136,7 +137,8 @@ export const facultyImages = [
 		src: pic5,
 	},
 	{
-		src: pic6,
+		src: pic35,
+		caption: "Respected Pro Vice Chancellor, Dr. Lovi Raj Gupta",
 	},
 
 	{
@@ -150,6 +152,7 @@ export const facultyImages = [
 	},
 	{
 		src: pic34,
+		caption: "Respected Sorabh Lakhanpal, Senior Dean",
 	},
 ];
 
