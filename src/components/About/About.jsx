@@ -1,6 +1,7 @@
 import "./About.css";
 import { motion } from "framer-motion";
 import aboutUs from "../../img/new/aboutUs.JPG";
+import { YouTubeEmbed } from "react-social-media-embed";
 
 export default function About() {
 	return (
@@ -17,6 +18,9 @@ export default function About() {
 				A Journey Fueled by Community and Technology
 				{/* About Me */}
 			</motion.h2>
+			<div className="flex justify-center my-4">
+				<YouTubeEmbed url="https://youtu.be/Iqp9DeqrqYI" />
+			</div>
 			<div className="About flex flex-col md:flex-row items-center mb-10 gap-5 px-4 md:px-0">
 				<div
 					className="blur"
@@ -33,30 +37,6 @@ export default function About() {
 				</div>
 				<div className="right flex-1 basis-2/3 text-white font-semibold text-xs md:text-2xl">
 					<p className="tracking-wide">
-						I'm Souhardya Bose, a dynamic community builder with a
-						proven track record. My leadership has significantly
-						scaled community growth, improved communication skills,
-						and boosted students' confidence in real-world
-						scenarios.
-					</p>
-					<p className="my-2 tracking-wide">
-						As the founder of technical entities like Developers
-						Students Club and Google Developers Students Clubs, I've
-						mentored Microsoft Learn Student Ambassadors and served
-						as the Chairperson of IEEE LPU. I've also been appointed
-						as NEP SAARTHI by the Government of India, UGC, Ministry
-						of Education, representing India's largest university at
-						the UGC Chairman.
-					</p>
-					<p className="tracking-wide">
-						I've hosted various workshops, seminars, and podcasts
-						for the Google Developer Students Club community. With a
-						Microsoft Technical Associate certification in Java,
-						I've completed industrial research training at IIT
-						Kanpur under Dr. Aman Karkey, HOD CSE. My ongoing
-						research focuses on AI, deep fake, and ML.
-					</p>
-					{/* <p className="tracking-wide">
 						My story starts with a simple belief:{" "}
 						<span className="font-bold italic">
 							people are stronger together{" "}
@@ -84,21 +64,9 @@ export default function About() {
 						committed to using my skills and expertise to help
 						individuals and organizations build stronger, more
 						connected communities.
-					</p> */}
+					</p>
 				</div>
 			</div>
-			{/* <div className="flex justify-center items-center">
-				<div className="video-container">
-					<iframe
-						src="https://www.youtube.com/embed/Iqp9DeqrqYI"
-						title="Our Guiding Light: A Tribute to Bose Bhaiya, Founder of Student Organization Oasis"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						allowfullscreen
-						className="w-4/5 h-[305px] md:h-[430px] relative left-[2.8rem] md:left-[4.1rem] top-4 md:top-6 "
-					></iframe>
-				</div>
-			</div> */}
 		</section>
 	);
 }

@@ -15,6 +15,7 @@ function EventPage() {
 						date={event.date}
 						description={event.description}
 						images={event.images}
+						videos={event.videos}
 					/>
 				))}
 			</div>

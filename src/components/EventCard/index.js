@@ -19,6 +19,11 @@ export const events = [
 		description:
 			"An amalgam of cultural & technical fun carnival to fill your upcoming days with amusement. In this era where endless challenges give birth to depression and dark days, we, the Team OASIS wants to remind you that the hope you're trying to find outside comes from within. With this idea of #HopeToLive, we are launching a 15 days fest to boost your lives with a dose of great fun, enthusiasm & unlimited entertainment.",
 		images: [sukoon1, sukoon2, sukoon3],
+		videos: [
+			"https://youtu.be/RpmOweBTyjc",
+			"https://youtu.be/V_hBbb-bPRk",
+			"https://youtu.be/wPRuVYEZYXk",
+		],
 	},
 	{
 		title: "TECHNOCEAN",

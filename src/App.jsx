@@ -38,11 +38,11 @@ function App() {
 			<Sidebar />
 			<Intro />
 			<About />
-			<Podcast />
 			<Services />
 			<Experience />
 			<Achievements />
 			<EventTimeline />
+			<Podcast />
 			<CelebGallery />
 			<CollegeGallery />
 			<GallerySection />

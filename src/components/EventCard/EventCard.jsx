@@ -2,7 +2,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaCalendar } from "react-icons/fa";
-export default function EventCard({ title, date, description, images }) {
+import { YouTubeEmbed } from "react-social-media-embed";
+export default function EventCard({
+	title,
+	date,
+	description,
+	images,
+	videos,
+}) {
 	const settings = {
 		dots: true,
 		infinite: true,
@@ -20,6 +27,11 @@ export default function EventCard({ title, date, description, images }) {
 							className="w-full h-full object-cover rounded-t-md"
 							alt=""
 						/>
+					</div>
+				))}
+				{videos?.map((video) => (
+					<div className="h-60 overflow-hidden">
+						<YouTubeEmbed url={video} width={"100%"} />
 					</div>
 				))}
 			</Slider>
