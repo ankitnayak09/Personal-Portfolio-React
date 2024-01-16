@@ -1,7 +1,6 @@
 import React from "react";
 import pic1 from "../../img/NEP/IMG_20231102_222246.jpg";
-import pic2 from "../../img/NEP/IMG_20231102_222702.png";
-import pic3 from "../../img/NEP/Screenshot_20231102_233123.jpg";
+import pic3 from "../../img/NEP/With Chairpeson of UGC.png";
 
 export default function () {
 	return (
@@ -42,7 +41,6 @@ export default function () {
 			<div className="grid grid-cols-1 md:grid-cols-3 gap-5">
 				<img src={pic1} alt="" />
 				<img src={pic3} alt="" />
-				<img src={pic2} alt="" />
 			</div>
 		</div>
 	);
