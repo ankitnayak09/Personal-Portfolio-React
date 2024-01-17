@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import "./EventTimeline.css";
 import sourabhDwivedi from "../../img/new/5.JPG";
 import amanDhattarwal from "../../img/new/amanDhattarwalEvent.jpg";
-import getPlaced from "../../img/new/6 (copy).jpg";
-import technocean from "../../img/new/13.jpg";
-import rahul from "../../img/new/podcast of infuencer/2.jpg";
-import session from "../../img/gallery/17.jpeg";
+import getPlaced from "../../img/new/getplaced.jpeg";
+import technocean from "../../img/new/technocean.jpeg";
+import rahul from "../../img/new/rahul_maheshwari.jpg";
+import anubhav from "../../img/new/chaiSuttaBar.jpeg";
 
 export default function EventTimeline() {
 	const transition = { duration: 2, type: "spring" };
@@ -84,23 +84,6 @@ export default function EventTimeline() {
 					className="relative group overflow-hidden self-start"
 				>
 					<img
-						src={rahul}
-						className="object-cover  group-hover:scale-110 transition-all"
-						alt=""
-					/>
-					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg text-xs md:text-sm">
-						Podcast Session with Mr Rahul Maheshwari,
-						Ex-Adobe,Ex-Google,Founder - LinuxSocials,90k+ followers
-						on linkdin
-					</p>
-				</motion.div>
-				<motion.div
-					initial={{ opacity: 0, scale: 0.5 }}
-					whileInView={{ opacity: 1, scale: 1 }}
-					transition={{ duration: 0.5 }}
-					className="relative group overflow-hidden"
-				>
-					<img
 						src={getPlaced}
 						className="object-cover  group-hover:scale-110 transition-all"
 						alt=""
@@ -119,12 +102,34 @@ export default function EventTimeline() {
 					className="relative group overflow-hidden self-start"
 				>
 					<img
-						src={session}
+						src={rahul}
 						className="object-cover  group-hover:scale-110 transition-all"
 						alt=""
 					/>
 					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg text-xs md:text-sm">
-						Session on "How to Boost Your Career using LinkedIn"
+						Podcast Session with Mr Rahul Maheshwari,
+						Ex-Adobe,Ex-Google,Founder - LinuxSocials,90k+ followers
+						on linkedin
+					</p>
+				</motion.div>
+				<motion.div
+					initial={{ opacity: 0, scale: 0.5 }}
+					whileInView={{ opacity: 1, scale: 1 }}
+					transition={{ duration: 0.5 }}
+					className="relative group overflow-hidden self-start"
+				>
+					<img
+						src={anubhav}
+						className="object-cover  group-hover:scale-110 transition-all"
+						alt=""
+					/>
+					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex:col justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg text-xs md:text-sm">
+						<span className="italic">
+							"Chai ka Anubhav - A tale from nothing to an Empire
+							of Chai"
+						</span>
+						,a inspirational session with Mr. Anubhav Dubey, Founder
+						of Chai Sutta Bar.
 					</p>
 				</motion.div>
 			</div>
