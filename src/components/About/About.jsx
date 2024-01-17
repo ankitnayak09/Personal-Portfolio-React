@@ -10,9 +10,9 @@ export default function About() {
 			className="mt-8 flex flex-col justify-between overflow-hidden"
 		>
 			<motion.h2
-				initial={{ opacity: 0, y: "-100" }}
-				whileInView={{ opacity: 1, y: 0 }}
-				transition={{ delay: 0.3 }}
+				initial={{ opacity: 0 }}
+				whileInView={{ opacity: 1 }}
+				transition={{ duration: 0.5 }}
 				className="text-2xl md:text-4xl font-bold text-center mb-4  mt-4 drop-shadow-lg uppercase text-black font-outline-2 font-mono"
 			>
 				A Journey Fueled by Community and Technology
