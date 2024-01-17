@@ -1,7 +1,6 @@
 import pic1 from "./../../img/gallery/1.jpeg";
 import pic2 from "./../../img/gallery/2.jpeg";
 import pic3 from "./../../img/gallery/3.jpeg";
-import pic4 from "./../../img/gallery/4.jpeg";
 import pic5 from "./../../img/gallery/5.jpeg";
 import pic6 from "./../../img/gallery/6.jpeg";
 import pic7 from "./../../img/gallery/7.jpeg";
@@ -16,7 +15,6 @@ import pic17 from "./../../img/gallery/17.jpeg";
 import pic18 from "./../../img/gallery/18.jpeg";
 import pic19 from "./../../img/gallery/19.jpeg";
 import pic20 from "./../../img/gallery/20.jpeg";
-import pic21 from "./../../img/new/1.JPG";
 import pic22 from "./../../img/new/2.JPG";
 import pic23 from "./../../img/new/3.JPG";
 import pic24 from "./../../img/new/4.JPG";
@@ -41,7 +39,6 @@ import pic42 from "./../../img/new/22.jpeg";
 import pic43 from "./../../img/new/23.jpeg";
 import pic44 from "./../../img/new/24.jpeg";
 import pic45 from "./../../img/new/25.jpeg";
-import pic46 from "./../../img/new/independence day 2023/1.jpg";
 import pic47 from "./../../img/new/podcast of infuencer/1.JPG";
 import pic48 from "./../../img/new/podcast of infuencer/2.jpg";
 import pic49 from "./../../img/new/podcast of infuencer/3.jpg";
@@ -49,7 +46,8 @@ import pic49 from "./../../img/new/podcast of infuencer/3.jpg";
 export const images = [
 	{
 		src: pic1,
-		caption: "Respected Dr. Preeti Bajaj, Vice Chancellor, LPU",
+		caption:
+			"Prof. Dr. Preeti Bajaj,Ex-Vice Chancellor LPU, Galgotias University",
 	},
 	{
 		src: pic2,
@@ -57,10 +55,6 @@ export const images = [
 	},
 	{
 		src: pic3,
-		caption: "With Anuj Bhaiya",
-	},
-	{
-		src: pic4,
 		caption: "With Anuj Bhaiya",
 	},
 	{
@@ -129,9 +123,6 @@ export const facultyImages = [
 	{
 		src: pic3,
 		caption: "Respected Dr. Prateek Agrawal, Head Of School CSE",
-	},
-	{
-		src: pic4,
 	},
 	{
 		src: pic5,
