@@ -83,7 +83,7 @@ const Experience = () => {
 				</div>
 
 				<p className="col-span-8 md:col-span-9">
-					Beyond stages and screens, shared my expertise on over 15
+					Beyond stages and screens, shared expertise on over 15
 					podcasts, contributing unique insights and engaging in
 					meaningful conversations.
 				</p>
