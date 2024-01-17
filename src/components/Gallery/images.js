@@ -1,7 +1,7 @@
 import pic1 from "./../../img/gallery/1.jpeg";
 import pic2 from "./../../img/gallery/2.jpeg";
 import pic3 from "./../../img/gallery/3.jpeg";
-import pic5 from "./../../img/gallery/5.jpeg";
+import pic4 from "./../../img/gallery/4.jpeg";
 import pic6 from "./../../img/gallery/6.jpeg";
 import pic7 from "./../../img/gallery/7.jpeg";
 import pic8 from "./../../img/gallery/8.jpeg";
@@ -125,7 +125,7 @@ export const facultyImages = [
 		caption: "Respected Dr. Prateek Agrawal, Head Of School CSE",
 	},
 	{
-		src: pic5,
+		src: pic4,
 	},
 	{
 		src: pic35,
