@@ -2,6 +2,7 @@ import "./About.css";
 import { motion } from "framer-motion";
 import aboutUs from "../../img/new/aboutUs.JPG";
 import { YouTubeEmbed } from "react-social-media-embed";
+import sukoon1 from "../../img/new/sukoon1.JPG";
 
 export default function About() {
 	return (
@@ -18,8 +19,13 @@ export default function About() {
 				A Journey Fueled by Community and Technology
 				{/* About Me */}
 			</motion.h2>
-			<div className="flex justify-center my-4">
-				<YouTubeEmbed url="https://youtu.be/Iqp9DeqrqYI" />
+			<div className="grid grid-cols-12 my-4 px-5 items-center gap-5">
+				<img src={sukoon1} className="w-full col-span-3" alt="" />
+				<YouTubeEmbed
+					url="https://youtu.be/Iqp9DeqrqYI"
+					className="col-span-6"
+				/>
+				<img src={sukoon1} className="w-full col-span-3" alt="" />
 			</div>
 			<div className="About flex flex-col md:flex-row items-center mb-10 gap-5 px-4 md:px-0">
 				<div
