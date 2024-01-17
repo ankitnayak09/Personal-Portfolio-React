@@ -15,30 +15,27 @@ export default function EventTimeline() {
 			<h2 className="text-4xl font-bold text-center my-4 text-[#242D49]">
 				A Journey in Community Building: Major Events
 			</h2>
-			<div className="grid grid-cols-1 md:grid-cols-3 place-items-center">
+			<div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-5">
 				<motion.div
 					initial={{ opacity: 0, scale: 0.5 }}
 					whileInView={{ opacity: 1, scale: 1 }}
 					transition={{ duration: 0.5 }}
-					className="relative group overflow-hidden"
+					className="relative group overflow-hidden self-end"
 				>
 					<img
 						src={amanDhattarwal}
-						className="object-cover aspect-square group-hover:scale-110 transition-all"
+						className="object-cover  group-hover:scale-110 transition-all"
 						alt=""
 					/>
-					<p className="hidden tracking-wide group-hover:flex absolute top-0 left-0 w-full h-full flex-col justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg">
+					<p className="hidden tracking-wide group-hover:flex absolute top-0 left-0 w-full h-full flex-col justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg text-xs md:text-sm">
 						<span className="text-lg font-bold">
 							Sukoon - Youthfest
 						</span>
-						An amalgam of cultural & technical fun carnival to fill
-						your upcoming days with amusement. In this era where
-						endless challenges give birth to depression and dark
-						days, we, the Team OASIS wants to remind you that the
-						hope you're trying to find outside comes from within.
-						With this idea of #HopeToLive, we are launching a 15
-						days fest to boost your lives with a dose of great fun,
-						enthusiasm & unlimited entertainment.
+						15-day themed fest, #HopeToLive, by Team OASIS, blending
+						cultural and technical fun for past days filled with
+						amusement. In a challenging era, the reminder was clear
+						– hope comes from within. The fest infused lives with
+						great fun, enthusiasm, and unlimited entertainment.
 					</p>
 				</motion.div>
 				<motion.div
@@ -49,10 +46,10 @@ export default function EventTimeline() {
 				>
 					<img
 						src={technocean}
-						className="object-cover aspect-square group-hover:scale-110 transition-all"
+						className="object-cover  group-hover:scale-110 transition-all"
 						alt=""
 					/>
-					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex-col justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg">
+					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex-col justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg text-xs md:text-sm">
 						<span className="text-2xl font-bold">TechnOcean</span>
 						Biggest tech fest of LPU organised with our Respected
 						Pro Vice Chancellor, Dr. Lovi Raj Gupta Sir and
@@ -65,14 +62,14 @@ export default function EventTimeline() {
 					initial={{ opacity: 0, scale: 0.5 }}
 					whileInView={{ opacity: 1, scale: 1 }}
 					transition={{ duration: 0.5 }}
-					className="relative group overflow-hidden"
+					className="relative group overflow-hidden self-end"
 				>
 					<img
 						src={sourabhDwivedi}
-						className="object-cover aspect-square group-hover:scale-110 transition-all"
+						className="object-cover  group-hover:scale-110 transition-all"
 						alt=""
 					/>
-					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex-col justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg">
+					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex-col justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg text-xs md:text-sm">
 						<span className="text-2xl font-bold">XPRESSIONS</span>
 						Biggest media fest of LPU. School of Journalism, Film
 						and Creative Arts, Organised by Student Organisation
@@ -84,14 +81,14 @@ export default function EventTimeline() {
 					initial={{ opacity: 0, scale: 0.5 }}
 					whileInView={{ opacity: 1, scale: 1 }}
 					transition={{ duration: 0.5 }}
-					className="relative group overflow-hidden"
+					className="relative group overflow-hidden self-start"
 				>
 					<img
 						src={rahul}
-						className="object-cover aspect-square group-hover:scale-110 transition-all"
+						className="object-cover  group-hover:scale-110 transition-all"
 						alt=""
 					/>
-					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg">
+					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg text-xs md:text-sm">
 						Podcast Session with Mr Rahul Maheshwari,
 						Ex-Adobe,Ex-Google,Founder - LinuxSocials,90k+ followers
 						on linkdin
@@ -105,10 +102,10 @@ export default function EventTimeline() {
 				>
 					<img
 						src={getPlaced}
-						className="object-cover aspect-square group-hover:scale-110 transition-all"
+						className="object-cover  group-hover:scale-110 transition-all"
 						alt=""
 					/>
-					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex-col justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg">
+					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex-col justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg text-xs md:text-sm">
 						<span className="text-2xl font-bold">GET PLACED</span>
 						Introduction to the IT sector & corporate world by the
 						placement experts Mr. Nishant Chahar(SDE Microsoft) and
@@ -119,14 +116,14 @@ export default function EventTimeline() {
 					initial={{ opacity: 0, scale: 0.5 }}
 					whileInView={{ opacity: 1, scale: 1 }}
 					transition={{ duration: 0.5 }}
-					className="relative group overflow-hidden"
+					className="relative group overflow-hidden self-start"
 				>
 					<img
 						src={session}
-						className="object-cover aspect-square group-hover:scale-110 transition-all"
+						className="object-cover  group-hover:scale-110 transition-all"
 						alt=""
 					/>
-					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg">
+					<p className="hidden group-hover:flex absolute top-0 left-0 w-full h-full flex justify-center items-center bg-[rgba(0,0,0,0.8)]  text-white px-2 font-bold drop-shadow-lg text-xs md:text-sm">
 						Session on "How to Boost Your Career using LinkedIn"
 					</p>
 				</motion.div>
