@@ -97,8 +97,6 @@ const Intro = () => {
 					whileInView={{ left: "-24%" }}
 					transition={transition}
 					src={glassesimoji}
-					drag
-					dragConstraints={IntroRef}
 					alt=""
 				/>
 
